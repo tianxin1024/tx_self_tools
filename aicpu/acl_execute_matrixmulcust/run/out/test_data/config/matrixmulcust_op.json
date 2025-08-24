@@ -1,0 +1,24 @@
+[
+  {
+    "op": "MatrixMulCust",
+    "input_desc": [
+      {
+        "format": "ND",
+        "shape": [900,512],
+        "type": "float32"
+      },
+      {
+        "format": "ND",
+        "shape": [512,80],
+        "type": "float32"
+      }
+    ],
+    "output_desc": [
+      {
+        "format": "ND",
+        "shape": [900,80],
+        "type": "float32"
+      }
+    ]
+  }
+]
